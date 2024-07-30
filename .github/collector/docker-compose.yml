@@ -19,7 +19,7 @@ services:
     environment:
       - AWS_ACCESS_KEY_ID
       - AWS_SECRET_ACCESS_KEY
-      - AWS_REGION=us-west-2
+      - AWS_REGION=eu-central-1
       - AWS_SESSION_TOKEN
       - AWS_DEFAULT_REGION
       - LISTEN_ADDRESS=0.0.0.0:8000
@@ -40,6 +40,6 @@ services:
     environment:
       - AWS_ACCESS_KEY_ID
       - AWS_SECRET_ACCESS_KEY
-      - AWS_REGION=us-west-2
+      - AWS_REGION=eu-central-1
       - AWS_SESSION_TOKEN
       - AWS_DEFAULT_REGION
