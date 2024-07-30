@@ -50,7 +50,6 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-composer-
       
-      
       - name: Run test containers
         run: docker-compose up --abort-on-container-exit
         working-directory: .github/collector
